@@ -1,0 +1,33 @@
+.main,
+.main_sidebarOpen {
+  width: calc(100% - 6rem);
+  margin-left: auto;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.main_sidebarOpen {
+  width: calc(100% - 13rem);
+  animation-name: mainSidebarOpen;
+  animation-duration: 0.3s;
+}
+
+@keyframes mainSidebarOpen {
+  from {
+    width: calc(100% - 6rem);
+  }
+  to {
+    width: calc(100% - 13rem);
+  }
+}
+
+@media (max-width: 600px) {
+  @keyframes mainSidebarOpen {}
+
+  .main_sidebarOpen,
+  .main {
+    padding: 0;
+    width: 100%;
+  }
+}

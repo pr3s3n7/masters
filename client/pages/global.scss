@@ -1,0 +1,46 @@
+:root {
+  --red: #BF4342;
+  --gray: #adb7c1;
+  --light-gray: #f1f1f1;
+  --gradient-blue: linear-gradient(135deg, #c1ffff, #34afdb);
+  --blue: #33b8d7;
+  --dark-blue: #243141;
+  --light-blue: #c1ffff;
+  --radius: 25px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafc;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+a {
+  user-select: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
