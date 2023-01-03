@@ -49,7 +49,7 @@
   },
   "scripts": {
     "dev": "next dev ./client -H 127.0.0.1 -p 3000 & tsnd --respawn server/index.ts",
-    "start": "next start ./client -H 127.0.0.1 -p 3000",
+    "start": "next start ./client -H 127.0.0.1 -p 3000 & tsnd --respawn server/index.ts",
     "server": "tsnd --respawn server/index.ts",
     "build": "next build ./client"
   },
